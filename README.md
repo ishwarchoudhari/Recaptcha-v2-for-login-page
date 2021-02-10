@@ -37,7 +37,8 @@ Deferring the render can be achieved by specifying your onload callback function
 
 1. Specify your ``` onload ``` callback function.  This function will get called when all the dependencies have loaded.
 
-```<script type="text/javascript">
+```
+<script type="text/javascript">
   var onloadCallback = function() {
     alert("grecaptcha is ready!");
   };
